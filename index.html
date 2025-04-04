@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juma Kariuki - Portfolio</title>
+    <link rel="icon" type="image/png" href="Images/JJ-logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("P-3-cVwJ1-pK5ihO_");
+        })();
+    </script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Portfolio</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Juma Kariuki</span></h1>
+                <h2>Web Developer & Designer</h2>
+                <p>I create beautiful and functional websites with a focus on user experience.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary-btn">View My Work</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="Images/JJ-logo.png" alt="JJ Logo" style="width: 100%; height: auto;">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Who am I?</h3>
+                    <p>I'm a passionate web developer with a strong focus on creating responsive and user-friendly websites. With a background in design and programming, I bring a unique perspective to every project.</p>
+                    <p>I enjoy solving complex problems and turning ideas into reality through clean and efficient code. When I'm not coding, you can find me exploring new technologies, reading, or hiking outdoors.</p>
+                    <div class="personal-info">
+                        <div class="info-item">
+                            <span class="info-title">Name:</span>
+                            <span class="info-value">Juma Kariuki</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-title">Email:</span>
+                            <span class="info-value">jumakrk@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-title">Location:</span>
+                            <span class="info-value">Nairobi, Kenya</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-title">Availability:</span>
+                            <span class="info-value">Available for freelance</span>
+                        </div>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1hMBbqGg-1dobetsClf-2PD2Gtn66sPTY/view?usp=drive_link" target="_blank" class="btn primary-btn">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-content">
+                <div class="skills-text">
+                    <h3>What I'm good at</h3>
+                    <p>I specialize in front-end development with a strong foundation in back-end technologies. My goal is to create websites that are not only visually appealing but also functional and user-friendly.</p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fab fa-html5"></i>
+                        <h4>HTML5</h4>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-css3-alt"></i>
+                        <h4>CSS3</h4>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-js"></i>
+                        <h4>JavaScript</h4>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-react"></i>
+                        <h4>React</h4>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-node-js"></i>
+                        <h4>Node.js</h4>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-database"></i>
+                        <h4>SQL</h4>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-android"></i>
+                        <h4>Kotlin</h4>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h4>Jetpack Compose</h4>
+                    </div>
+                    <div class="skill-card">
+                        <svg viewBox="0 0 24 24" class="tailwind-icon" style="width: 24px; height: 24px;">
+                            <path fill="#06B6D4" d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z"/>
+                        </svg>
+                        <h4>Tailwind CSS</h4>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-laravel"></i>
+                        <h4>Laravel</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="Images/ProPlumb.png" alt="ProPlumb" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-info">
+                        <h3>ProPlumb Solutions</h3>
+                        <p>This was my first venture into web development, where I created a complete website from scratch using HTML, CSS, and JavaScript. This project helped me understand the fundamentals of web development and responsive design.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://jumakrk.github.io/Pro-Plumb-Solutions-/#" target="_blank" class="btn small-btn">View Project</a>
+                            <a href="https://github.com/jumakrk/Pro-Plumb-Solutions-.git" target="_blank" class="btn small-btn secondary-btn">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="Images/Oraimo-clone.png" alt="Oraimo Clone" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-info">
+                        <h3>Oraimo Website Clone</h3>
+                        <p>A clone of the Oraimo website that I created to practice and enhance my HTML and CSS skills. This project helped me understand layout structures, styling techniques, and how to recreate professional website designs.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://jumakrk.github.io/Oraimo-Clone/" target="_blank" class="btn small-btn">View Project</a>
+                            <a href="https://github.com/jumakrk/Oraimo-Clone.git" target="_blank" class="btn small-btn secondary-btn">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="Images/first-portfolio.png" alt="First Portfolio" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-info">
+                        <h3>First Portfolio Website</h3>
+                        <p>A modern portfolio website built using HTML, Tailwind CSS, and JavaScript. This project showcases my ability to create responsive layouts using Tailwind's utility-first CSS framework while maintaining clean and efficient code.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>Tailwind CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://my-personal-portfolio-96c80.web.app/" target="_blank" class="btn small-btn">View Project</a>
+                            <a href="https://github.com/jumakrk/My-Personal-Portfolio.git" target="_blank" class="btn small-btn secondary-btn">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>Feel free to reach out to me for any inquiries or collaboration opportunities.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>jumakrk@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+254 743581831</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Nairobi, Kenya</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/juma-kariuki-38a9442a2/?originalSubdomain=ke" target="_blank" rel="noopener noreferrer" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/jumakrk" target="_blank" rel="noopener noreferrer" class="social-icon"><i class="fab fa-github"></i></a>
+                        <a href="https://x.com/jumakrk" target="_blank" rel="noopener noreferrer" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/faze._.j/" target="_blank" rel="noopener noreferrer" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send Me a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" 
+                                   id="name" 
+                                   name="name" 
+                                   placeholder="Your Name" 
+                                   autocomplete="name"
+                                   required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" 
+                                   id="email" 
+                                   name="email" 
+                                   placeholder="Your Email" 
+                                   autocomplete="email"
+                                   required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" 
+                                   id="subject" 
+                                   name="subject" 
+                                   placeholder="Subject" 
+                                   autocomplete="off"
+                                   required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" 
+                                      name="message" 
+                                      placeholder="Your Message" 
+                                      autocomplete="off"
+                                      required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; Juma Kariuki. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Defer non-critical JavaScript -->
+    <script src="script.js" defer></script>
+</body>
+</html>
