@@ -1,4 +1,4 @@
-# Personal Portfolio Website
+# My Official Personal Portfolio Website
 
 A modern, responsive portfolio website showcasing my web development projects and skills. Built with HTML, CSS, and JavaScript.
 
@@ -19,10 +19,6 @@ A modern, responsive portfolio website showcasing my web development projects an
 - JavaScript
 - EmailJS for contact form
 - Font Awesome icons
-- Tailwind CSS
-- React
-- Node.js
-- Laravel
 
 ## 📂 Project Structure
 
@@ -31,3 +27,37 @@ A modern, responsive portfolio website showcasing my web development projects an
 ├── styles.css         # CSS styles
 ├── script.js         # JavaScript functionality
 └── Images/          # Project images and assets
+
+## 🚀 Key Features Breakdown
+
+### Navigation
+- Responsive navigation menu
+- Mobile-friendly hamburger menu
+- Smooth scroll to sections
+
+### Theme Switching
+- Dynamic dark/light mode toggle
+- Persistent theme preference storage
+
+### Projects Section
+- Filter projects by category
+- Project cards with images
+- Live demo links
+- Source code access
+
+### Contact Form
+- Email integration using EmailJS
+- Form validation
+- Success/Error notifications
+
+## 📱 Responsive Design
+The portfolio is fully responsive and optimized for:
+- Desktop devices
+- Tablets
+- Mobile phones
+
+## 📧 Contact
+- Email: jumakrk@gmail.com
+- Location: Nairobi, Kenya
+- LinkedIn: Juma Kariuki
+- GitHub: jumakrk
